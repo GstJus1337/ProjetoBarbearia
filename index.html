@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="scripts/app.js" defer></script>
+    <!-- Importação da fonte Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Importação da icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Importação da API animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Barbearia Juscinski</title>
+</head>
+<body>
+
+    <div class="bgHome">
+        <header>
+            <nav class="headerContent container">
+                <div class="headerIcons" data-aos="fade-right">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="headerLogo" data-aos="fade-down" data-aos-delay="400">
+                    <img src="img/logo.svg" alt="Logo da Barbearia">
+                </div>
+
+                <div data-aos="fade-left">
+                    <a href="https://api.whatsapp.com/send/?phone=999999999" class="headerButton" target="_blank">
+                        Agendar horário
+                    </a>
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" data-aos-delay="350">
+                <h1>Estilo é um reflexo da sua atitude e sua personalidade</h1>
+                <p>Horário de funcionamento 09 : 00 às 19 : 00</p>
+                <a href="https://api.whatsapp.com/send/?phone=999999999" class="buttonContact" target="_blank">
+                    Agendar horário
+                </a>
+            </main>
+        </header>
+    </div>
+
+    <section class="sobre">
+        <div class="container containerSobre">
+            <div data-aos="zoom-in" data-aos-delay="300">
+                <img src="img/images.svg" alt="Imagem sobre a barbearia">
+            </div>
+
+            <div class="descricaoSobre" data-aos="zoom-out-left" data-aos-delay="350">
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare lectus sit amet est. Libero volutpat sed cras ornare arcu dui vivamus. Rhoncus aenean vel elit scelerisque. Quisque sagittis purus sit amet volutpat. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent.</p>
+                <p>Horário de funcionamento <strong>09 : 00</strong> às <strong>19 : 00</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <div class="containerServicos container">
+            <h2>
+                Serviços
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <section class="cortes">
+            <div class="corteCabelo" data-aos="fade-up" data-aos-delay="150">
+                <img src="img/corte1.png" alt="Corte de cabelo">
+                <div class="corteInfo">
+                    <strong>Corte Cabelo</strong>
+                    <button>
+                        R$30,00
+                    </button>
+                </div>
+            </div>
+
+            <div class="corteCabelo" data-aos="fade-up" data-aos-delay="250">
+                <img src="img/corte2.png" alt="Corte de Barba">
+                <div class="corteInfo">
+                    <strong>Corte Barba</strong>
+                    <button>
+                        R$40,00
+                    </button>
+                </div>
+            </div>
+
+            <div class="corteCabelo" data-aos="fade-up" data-aos-delay="350">
+                <img src="img/corte3.png" alt="Corte completo">
+                <div class="corteInfo">
+                    <strong>Corte Completo</strong>
+                    <button>
+                        R$60,00
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <div class="containerMapa">
+        <div class="mapa">
+            <h2>Venha conhecer!</h2>
+            <iframe  data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.257276796566!2d-50.11820702494056!3d-25.059267677799962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81be217a6e0bd%3A0x212e07936f78812d!2sR.%20Ger%C3%B4nimo%20Carraro%2C%20352%20-%20Neves%2C%20Ponta%20Grossa%20-%20PR%2C%2084022-170!5e0!3m2!1spt-BR!2sbr!4v1689091770773!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>Rua Nome da rua, Nº123 - Bairro</p>
+            <p>Cidade / UF</p>
+        </div>
+    </div>
+
+    <footer class="footer" data-aos="fade-up" data-aos-delay="150">
+        <div class="footerIcons">
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+        </div>
+        <div class="footerInfo">
+            <p>Copyright 2023 | Landing Page Barbearia - Sujeito Programador</p>
+        </div>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send/?phone=999999999" class="btnWhats" target="_blank" data-aos="zoom-in-up"> 
+        <img src="img/whatssapp.svg" alt="whatssapp" target="_blank">
+    </a>
+</body>
+</html>
